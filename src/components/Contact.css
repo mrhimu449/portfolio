@@ -46,10 +46,10 @@
 .contact-details {
     display: flex;
     flex-direction: column;
-    gap: 40px;
+    gap: 30px;
 }
 .contact-left p {
-    font-size: 22px;
+    font-size: 18px;
     font-weight: 400;
     max-width: 550px;
     line-height: 30px;
@@ -58,7 +58,6 @@
     display: flex;
     align-items: center;
     gap: 10px;
-    font-size: 20px;
 }
 
 .contact-right input {
@@ -67,7 +66,7 @@
     width: 250px;
     height: 26px;
     padding: 10px 20px;
-    background-color: rgb(44, 42, 39);
+    background-color:  #32323B;
 }
 
 .contact-right textarea {
@@ -75,7 +74,7 @@
     border-radius: 8px;
     width: 250px;
     padding: 10px 20px;
-    background-color: rgb(44, 42, 39);
+    background-color:  #32323B;
 }
 
 .contact-submit {
@@ -88,6 +87,15 @@
     background: linear-gradient(260deg,orange -.5%,purple 106%);
     cursor: pointer;
     transition: .3s;
+}
+
+.contact-submit:hover {
+    transform: scale(1.1);
+    transition: .3s;
+}
+
+.contact-right input:hover, textarea:hover {
+    border: 1px solid white;
 }
 
 
